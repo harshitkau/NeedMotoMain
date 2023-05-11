@@ -2,7 +2,6 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import '../controllers/Request_Controller.dart';
-import '../objects/car.dart';
 
 class Request extends StatelessWidget {
   RequestController c = RequestController();
