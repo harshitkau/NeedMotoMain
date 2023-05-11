@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "101865259577",
+    "project_id": "car-rentals-f10a5",
+    "storage_bucket": "car-rentals-f10a5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:101865259577:android:43b0bdcb31e25e1dec43e8",
+        "android_client_info": {
+          "package_name": "com.example.carz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "101865259577-r5rlu9ds1m24b0mg8erl64bv7ehpiiue.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBchyHCm_lUGObWiXxaktz3z19H9E0vqzk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "101865259577-r5rlu9ds1m24b0mg8erl64bv7ehpiiue.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:101865259577:android:52c26e8acdc063aaec43e8",
+        "android_client_info": {
+          "package_name": "com.example.need_moto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "101865259577-r5rlu9ds1m24b0mg8erl64bv7ehpiiue.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBchyHCm_lUGObWiXxaktz3z19H9E0vqzk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "101865259577-r5rlu9ds1m24b0mg8erl64bv7ehpiiue.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
