@@ -2,9 +2,9 @@ import 'package:flutter/cupertino.dart';
 import 'package:get/get.dart';
 
 import '../model/Request_model.dart';
-import '../widget/RequestAccepted.dart';
-import '../widget/Request_Pending.dart';
-import '../widget/Request_Rejected.dart';
+import '../screens/RequestAccepted.dart';
+import '../screens/Request_Pending.dart';
+import '../screens/Request_Rejected.dart';
 
 class RequestController extends GetxController {
   RxList productData = [].obs;

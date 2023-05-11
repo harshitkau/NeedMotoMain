@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-import '../objects/form.dart';
-import '../objects/fromtotile.dart';
-import '../objects/myappbar.dart';
-import '../objects/pickupdeliverypurpose.dart';
-import '../objects/userchoiceseats.dart';
-import '../objects/vehicleTile.dart';
+import '../widget/form.dart';
+import '../widget/fromtotile.dart';
+import '../widget/myappbar.dart';
+import '../widget/pickupdeliverypurpose.dart';
+import '../widget/userchoiceseats.dart';
+import '../widget/vehicleTile.dart';
 
 class seventh extends StatefulWidget {
   const seventh({Key? key}) : super(key: key);

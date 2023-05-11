@@ -4,9 +4,9 @@ import 'package:get/get.dart';
 
 import '../controllers/LogController.dart';
 import '../controllers/Request_Controller.dart';
-import '../widget/RequestAccepted.dart';
-import '../widget/Request_Pending.dart';
-import '../widget/Request_Rejected.dart';
+import 'RequestAccepted.dart';
+import 'Request_Pending.dart';
+import 'Request_Rejected.dart';
 
 class LogScreen extends StatelessWidget {
   final logController = Get.put(LogController());

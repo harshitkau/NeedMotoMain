@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:need_moto/views/Log_screen.dart';
+import 'package:need_moto/screens/Log_screen.dart';
 
-import '../widget/SelfDrive.dart';
+import 'SelfDrive.dart';
 
 class Home extends StatelessWidget {
   const Home({Key? key}) : super(key: key);

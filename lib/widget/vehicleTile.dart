@@ -1,8 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:need_moto/objects/check_kyc.dart';
-import 'package:need_moto/objects/request.dart';
+import 'package:need_moto/widget/request.dart';
 import 'package:need_moto/screens/tenth.dart';
 
 class VehicleTile extends StatefulWidget {

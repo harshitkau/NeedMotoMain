@@ -6,13 +6,13 @@ import 'package:need_moto/controllers/main_controller.dart';
 import 'package:need_moto/main.dart';
 import 'package:need_moto/model/Car_model.dart';
 
-import '../objects/distanceslider.dart';
-import '../objects/fromtotile.dart';
-import '../objects/myappbar.dart';
-import '../objects/timeslider.dart';
-import '../objects/pickupdeliverypurpose.dart';
-import '../objects/userchoiceseats.dart';
-import '../objects/vehicleTile.dart';
+import '../widget/distanceslider.dart';
+import '../widget/fromtotile.dart';
+import '../widget/myappbar.dart';
+import '../widget/timeslider.dart';
+import '../widget/pickupdeliverypurpose.dart';
+import '../widget/userchoiceseats.dart';
+import '../widget/vehicleTile.dart';
 
 class sixth extends StatefulWidget {
   sixth({

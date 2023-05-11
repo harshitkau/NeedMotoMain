@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:splashscreen/splashscreen.dart';
 
-import '../screens/Home.dart';
+import 'Home.dart';
 
 class Splash extends StatelessWidget {
   const Splash({Key? key}) : super(key: key);

@@ -8,8 +8,8 @@ import 'package:need_moto/main.dart';
 
 import '../controllers/Dropdown.dart';
 import '../model/Log_model.dart';
-import '../screens/sixth.dart';
-import '../screens/Home.dart';
+import 'sixth.dart';
+import 'Home.dart';
 import 'ReqCancle.dart';
 import 'ReqSent.dart';
 

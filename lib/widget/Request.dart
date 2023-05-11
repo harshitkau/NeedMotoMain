@@ -1,11 +1,44 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:need_moto/widget/car.dart';
 
-import '../controllers/Request_Controller.dart';
-import '../objects/car.dart';
+import '../controllers/booking_controller.dart';
 
 class Request extends StatelessWidget {
-  RequestController c = RequestController();
+  final String imgUrl;
+  final String vehicleName;
+  final String seats;
+  final String average;
+  final String kpml;
+  final String type;
+  final String ownerName;
+  final String ownerPhoneNumber;
+
+  String vehicleLocation;
+  String source;
+  String destination;
+  String pickupDateTime;
+  String returnDateTime;
+  String delivery;
+  String purpose;
+
+  Request(
+      {required this.imgUrl,
+      required this.vehicleName,
+      required this.seats,
+      required this.average,
+      required this.kpml,
+      required this.type,
+      required this.ownerName,
+      required this.ownerPhoneNumber,
+      required this.delivery,
+      required this.purpose,
+      required this.returnDateTime,
+      required this.pickupDateTime,
+      required this.source,
+      required this.destination,
+      required this.vehicleLocation});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -13,7 +46,7 @@ class Request extends StatelessWidget {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              // Car(),
+              Car(imgUrl: imgUrl, vehicleName: vehicleName),
               SizedBox(
                 height: 30,
               ),
@@ -54,7 +87,7 @@ class Request extends StatelessWidget {
                                 height: 5,
                               ),
                               Text(
-                                '5',
+                                seats,
                                 style: TextStyle(
                                     color: Colors.white,
                                     fontSize: 25,
@@ -85,7 +118,7 @@ class Request extends StatelessWidget {
                                 height: 5,
                               ),
                               Text(
-                                '75',
+                                average,
                                 style: TextStyle(
                                     color: Colors.white,
                                     fontSize: 25,
@@ -116,7 +149,7 @@ class Request extends StatelessWidget {
                                 height: 5,
                               ),
                               Text(
-                                '9.8',
+                                kpml,
                                 style: TextStyle(
                                     color: Colors.white,
                                     fontSize: 25,
@@ -147,7 +180,7 @@ class Request extends StatelessWidget {
                                 height: 20,
                               ),
                               Text(
-                                'Diesel',
+                                type,
                                 style: TextStyle(
                                     color: Colors.white,
                                     fontSize: 25,
@@ -195,7 +228,7 @@ class Request extends StatelessWidget {
                           width: 150,
                           height: 20,
                           child: Text(
-                            'Ramu',
+                            ownerName,
                             style: TextStyle(
                                 fontSize: 18, fontWeight: FontWeight.w600),
                           )),
@@ -203,7 +236,7 @@ class Request extends StatelessWidget {
                           width: 150,
                           height: 15,
                           child: Text(
-                            '+91 9823743958',
+                            ownerPhoneNumber,
                             style: TextStyle(fontSize: 14, color: Colors.grey),
                           ))
                     ],
@@ -219,13 +252,24 @@ class Request extends StatelessWidget {
               width: 250,
               height: 50,
               child: ElevatedButton(
-                  style:
-                      ElevatedButton.styleFrom(backgroundColor: Colors.black),
-                  onPressed: () {},
-                  child: Text(
-                    'Book Now',
-                    style: TextStyle(color: Colors.white, fontSize: 30),
-                  )),
+                style: ElevatedButton.styleFrom(backgroundColor: Colors.black),
+                onPressed: () {
+                  BookingColntroller.instance.booking(
+                    source,
+                    destination,
+                    pickupDateTime,
+                    returnDateTime,
+                    delivery,
+                    purpose,
+                  );
+
+                  Navigator.pop(context);
+                },
+                child: Text(
+                  'Book Now',
+                  style: TextStyle(color: Colors.white, fontSize: 30),
+                ),
+              ),
             )));
   }
 }

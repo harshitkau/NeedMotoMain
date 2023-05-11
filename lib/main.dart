@@ -15,8 +15,8 @@ import 'package:firebase_ui_auth/firebase_ui_auth.dart';
 import 'package:need_moto/screens/Home.dart';
 
 import 'controllers/booking_controller.dart';
-import 'objects/car.dart';
-import 'objects/request.dart';
+import 'widget/car.dart';
+import 'widget/request.dart';
 
 void main() async {
   //making the menu controller available

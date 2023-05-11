@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:get/get.dart';
-import 'package:need_moto/objects/form.dart';
-import 'package:need_moto/objects/fromtotile.dart';
-import 'package:need_moto/objects/timeslider.dart';
+import 'package:need_moto/widget/form.dart';
+import 'package:need_moto/widget/fromtotile.dart';
+import 'package:need_moto/widget/timeslider.dart';
 
 import '../controllers/VehicleBookingController.dart';
 

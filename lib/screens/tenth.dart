@@ -6,12 +6,12 @@ import 'package:image_picker/image_picker.dart';
 
 import '../controllers/filecontroller.dart';
 import '../controllers/imagecontroller.dart';
-import '../objects/kyc_appbar.dart';
-import '../objects/kycdocupload.dart';
-import '../objects/submitbutton.dart';
-import '../objects/tilefordocument.dart';
-import '../objects/kycwarning.dart';
-import '../objects/uploadtiledoc.dart';
+import '../widget/kyc_appbar.dart';
+import '../widget/kycdocupload.dart';
+import '../widget/submitbutton.dart';
+import '../widget/tilefordocument.dart';
+import '../widget/kycwarning.dart';
+import '../widget/uploadtiledoc.dart';
 import 'package:firebase_storage/firebase_storage.dart' as firebase_storage;
 
 class Tenth extends StatefulWidget {
